@@ -1,0 +1,4 @@
+composer download
+laravel install
+create repository
+push 
