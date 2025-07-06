@@ -8,7 +8,8 @@ class HomeController extends Controller
 {
     public function index()
     { 
-        return view ('index');
+        $title='Home Page';
+        return view ('index', compact('title'));
     }
 }
 

@@ -8,7 +8,8 @@ class NewsController extends Controller
     {
     public function news()
     { 
-        return view ('news');
+       $title='News Page';
+        return view ('news', compact('title'));
     }
 }
 

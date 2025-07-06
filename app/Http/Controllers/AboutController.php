@@ -8,6 +8,7 @@ class AboutController extends Controller
 {
     public function about()
     { 
-        return view('about');
+        $title='About Page';
+        return view ('about', compact('title'));
     }
 }
